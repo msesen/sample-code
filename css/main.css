@@ -83,7 +83,7 @@ body {
     z-index: 999;
 }
 
-/* Analogue CLOCK */
+/* CLOCK */
 div.clock {
     position: absolute;
     top: 0%;
@@ -200,18 +200,16 @@ div#hours-hand {
     position: absolute;
     top: 27%;
     left: 39%;
-    width: 29%;
-    
+    width: 29%; 
 }
 .hero-text-container p {
-    font-size: 16px;
-    font-size: 1vw;
+    font-size: 0.9vw;
     text-align: left;
     font-family: inconsolata;
     font-weight: 400;
 }
 
-/* Monitor screen typing effect text colour */
+/*Monitor screen typing text colour*/
 .code-blue {
     color: #348cca;
 }
@@ -230,6 +228,9 @@ div#hours-hand {
 .code-echotext {
     color: #CC7111;
 }
+.code-commenttext, .code-comment {
+    color: #5D5D5D;
+}
 .text-caret {
     color: #FFFFFF;
 }
@@ -246,7 +247,7 @@ h4 {
     padding: 50px 0px;
 }
 
-/* About Section */
+/*About Section*/
 .about-section-container {
     background-color: #437c90;
 }
@@ -270,7 +271,7 @@ h4 {
 .readmore-container a {
     color: #FFFFFF;
 }
-/* Recent Work Section */
+/*Recent Work Section*/
 .recentwork-section-container h1, .skills-section-container h1 {
     color: #000000;
     margin-bottom: 75px;
@@ -285,13 +286,13 @@ h4 {
     margin-top: 50px;
 }
 
-/* Skills Section */
+/*Skills Section*/
 .skills-section-container {
     background-color: #A9E1F7;
 }
 
 
-/* Testimonials */
+/*Testimonials*/
 .testimonials-container {
 	padding-top: 75px;
 	padding-bottom: 50px;
@@ -314,7 +315,7 @@ h4 {
 	font-size: 9pt;
 }
 
-/* Contact */
+/*Contact*/
 .contact-section-container {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -358,7 +359,7 @@ input#subject {
 }
 .contact-form input {
 	display: inline-block;
-	width: 32.90%;
+	width: 33%;
 	margin-bottom: 7px;
 	padding: 7px 35px;
 	border: solid 1px #cacac8;
@@ -384,7 +385,7 @@ input#subject {
     background-color: #405259;
 }
 
-/* Projects Page */
+/*Projects Page*/
 .hero-container-projects {
     position: relative;
     background-color: #437C90;
@@ -484,9 +485,8 @@ input#subject {
 .resume-section h4 {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
-   font-size: 13px;
+   font-size: 20px;
    position: relative;
-   padding-bottom: 5px;
    z-index: 2;
 }
 .resume-title {
@@ -533,7 +533,7 @@ input#subject {
     font-weight: 300;
 }
 .send-cv-container input, .send-cv-container button {
-    margin-left: 5px;
+    margin-left: 15px;
     padding: 5px;
 }
 .qualifications-container span {
@@ -568,7 +568,6 @@ input#subject {
 .labels-container span:nth-child(3) {
     left: 96%;
 }
-/* Verical lines for the bar-charts - Bar Charts */
 .vlines-container {
     position: relative;
     width: 100%;
@@ -671,6 +670,11 @@ input#subject {
     animation-duration: 4s;
 }
 .bar-java {
+    width: 70%;
+    animation-name: width70;
+    animation-duration: 4s;
+}
+.bar-python {
     width: 70%;
     animation-name: width70;
     animation-duration: 4s;
@@ -787,7 +791,7 @@ input#subject {
     color: #437C90;
 }
 
-/* Minimum width for the analogue clock*/
+/* Minimum width for the clock*/
 @media only screen and (max-width: 1199px) {
 
     /* Hide Clock */
@@ -796,20 +800,37 @@ input#subject {
     }
 }
 
+/* Tablet portrait */
+@media only screen and (max-width: 1024px) {
+
+    .hero-text-container {
+        position: absolute;
+        top: 27%;
+        left: 36%;
+        width: 34%; 
+    }
+    .hero-text-container p {
+        font-size: 1.3vw;
+    }
+}
+
 /*Iphone 5 Portrait*/
 @media only screen and (max-width: 320px) {
     body {
         padding-top: 100px;
     }
+    .hero-text-container p {
+        font-size: 2.7vw;
+    }
 }
 
-/* Moible Phones portrait */
+/* Moible Phone portrait*/
 @media only screen and (max-width: 450px) {
 
     .navbar-right {
         margin-top: 10%;
     }
-    /* Logo in Main Nav */
+    /*Logo in Main Nav*/
     .navbar-brand > img {
         top: -90%;
     }
@@ -837,12 +858,12 @@ input#subject {
         margin: 0px auto;
     }
     .hero-text-container {
-        top: 20%;
-        left: 16%;
-        width: 70%;
+        top: 15%;
+        left: 14.5%;
+        width: 75%;
     }
     .hero-text-container p {
-        font-size: 3vw;
+        font-size: 2.7vw;
     }
     .hero-container-projects h1 {
         font-size: 25px;
