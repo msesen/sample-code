@@ -173,10 +173,10 @@ $(document).ready(function(){
 		
 		// On monitor typing
 		// Dom Elements to target for writing the texts
-		var elems = ["open-tag", "tag-text", "close-tag", "open-brace", "brace-text", "close-brace", "open-echo", "echo-text", "close-echo"];
+		var elems = ["open-tag", "tag-text", "close-tag", "open-brace", "brace-text", "close-brace", "open-echo", "echo-text", "close-echo", "open-comment", "comment-text", "close-comment"];
 	
 		// Text to output in the same order as the elements array
-		var text = ["<h1>", "Hello World", "</h1>", "alert( ", "\"I'm Mehmet Sesen.\"", " );", "echo ", "\"A developer who loves programming, and creating user friendly apps.\"", ";"];
+		var text = ["<h1>", "Hello World", "</h1>", "alert( ", "\"I'm Mehmet Sesen, a Web Developer based in London, UK.\"", " );", "echo ", "\"Skills include HTML 5, CSS 3, JavaScript, jQuery, PHP, MySQL, Bootstrap, CodeIgniter, OOP, Design Conversion, Photoshop, Illustrator.\"", ";", "/*", " Please, do look around for further info. ", "*/"];
 		
 		// Starting text
 		var string = text[0];
@@ -243,7 +243,7 @@ $(document).ready(function(){
 		// Flag for checking if barchart animation is running
 		var isAnimRunning = false;
 		
-		//jQuery plugin for detecting if an element is in viewport
+		// jQuery plugin for detecting if an element is in viewport
 		var waypoint = new Waypoint({
 			element: document.getElementById('skills-section'),
 			handler: function(direction) {
