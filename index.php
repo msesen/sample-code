@@ -41,9 +41,8 @@
 						<p><span id="open-tag" class="code-blue"></span><span id="tag-text" class="code-white"></span><span id="close-tag" class="code-blue"></span></p>
 						<p><span id="open-brace" class="code-lime"></span><span id="brace-text" class="code-orange"></span><span id="close-brace" class="code-lime"> </span></p>
 						<p><span id="open-echo" class="code-echo"></span><span id="echo-text" class="code-echotext"></span><span id="close-echo" class="code-echo"></span></p>
+						<p><span id="open-comment" class="code-comment"></span><span id="comment-text" class="code-commenttext"></span><span id="close-comment" class="code-comment"></span></p>
 					</div>
-
-					<!-- Analogue Clock -->
 					<div class="clock">
 						<div>12</div>
 						<div>1</div>
@@ -105,7 +104,7 @@
 		</div>
 	</div>
 
-	<!-- Skills  WSection -->
+	<!-- Skills  Section -->
 	<div id="skills-section" class="container-fluid skills-section-container section">
 		<div class="container">
 			<div class="row">
@@ -164,6 +163,7 @@
 								<div class="vline line10"></div>
 							</div>
 							<div class="bg-bar"><div id="bar-java"  class="bar bar-java"><span>Java</span></div></div>
+							<!-- <div class="bg-bar"><div id="bar-python"  class="bar bar-python"><span>Python</span></div></div> -->
 							<div class="bg-bar"><div id="bar-android"  class="bar bar-android"><span>Android</span></div></div>
 							<div class="bg-bar"><div id="bar-oop"  class="bar bar-oop"><span>OO Programming</span></div></div>
 						</div>
@@ -300,6 +300,8 @@
 						<tr class="social-icons">
 							<td><a href="https://www.facebook.com/mhmtssn" target="_blank"><img src="images/icon-facebook.png" alt="Facebook"></a></td>
 							<td><a href="https://twitter.com/mhmtssn" target="_blank"><img src="images/icon-twitter.png" alt="Twitter"></a></td>
+							<!--<td><a href="skype:msesen?userinfo"><img src="images/icon-skype.png" alt="Skype"></a></td>-->
+							<!--<td><img src="images/icon-linkedin.png" alt="Linkedin"></td>-->
 						</tr>
 					</table>
 				</div>
@@ -326,7 +328,7 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-1.11.2.min.js"></script>
 
-	<!-- Bootstrap - Needs jQuery -->
+	<!-- Bootstrap - Needs jQuery-->
 	<script src="js/bootstrap.js"></script>
 
 	<!-- Waypoints JQuery plugin -->
