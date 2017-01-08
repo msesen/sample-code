@@ -264,6 +264,7 @@
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
 							<img class="img-responsive" src="images/screenshots/portfolio.png" alt="Portfolio project details">
 							<span class="live-view-btn"><a href="http://www.msesen.com">Live view</a></span>
+							<span class="live-view-btn"><a href="https://github.com/msesen/sample-code" target="_blank">Source Code</a></span>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 							<div class="project-info-container">

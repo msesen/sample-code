@@ -54,6 +54,11 @@
 							<p class="resume-intro">Through these projects, have acquired a solid understanding of the core web development technologies and a keen eye for the latest software development tools and techniques. Able to pick up new programming languages and adopt to current development tools. Also, familiar with the design tools for developing artwork and user interfaces. Strong skills in converting a website design into a responsive live website.</p>
 						</div>
 					</div>
+					<div class="resume-section">
+						<div class="resume-info-container">
+							<div class="github-link well"><a href="https://github.com/msesen/sample-code" target="_blank"><img src="images/icon-github.png" alt="GitHub Icon"> View source code on GitHub</a></div>
+						</div>
+					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 					<div class="resume-section">
