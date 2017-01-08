@@ -213,7 +213,6 @@ class Pages extends CI_Controller {
 
 	// Handle ajax calls from search forms
 	public function populateForm() {
-		header("Access-Control-Allow-Origin: http://universallubricant.co.uk");
 		/*
 			POPULATE FORM ON AJAX CALL
 		*/
