@@ -58,7 +58,8 @@ class Pages extends CI_Controller {
 	// Load and handle sector pages - display the info related to the sector that was clicked.
 	public function sectors($sector) {
 		
-		$date = [];
+		// Array for passing data to the View
+		$data = [];
 		
 		if($sector == "automotive") {
 			$data["sector"] = "AUTOMOTIVE";
