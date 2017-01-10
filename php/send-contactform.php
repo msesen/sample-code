@@ -6,14 +6,11 @@
     // Set the receiver for the contact form
     $to = "hello@msesen.com";
 
-    //Get form field value and sanitise
+    // Get form field value and sanitise
     $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
     $from = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
     $subject= filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
     $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
-
-    // Sanitise inputs
-    
     
      // Set email content
     $footer = "Sent from the contact form located at www.msesen.com";
