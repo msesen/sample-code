@@ -200,7 +200,7 @@ class Pages extends CI_Controller {
 		$data['totalNumOfProducts'] = $total_rows; //Indicate number of products found in Page Indicator
 		
 		//Indicate and format the current result set based on the number of results the user is viewing in the Page Indicator
-		if($curr_result_set > 12) {
+		if($curr_result_set > $products_per_page) {
 			$data['viewingProducts'] = $curr_result_set-($row_count-1)."-".$curr_result_set; 
 		}
 		else {
