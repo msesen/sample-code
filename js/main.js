@@ -295,7 +295,7 @@ $(document).ready(function(){
 						document.getElementById("bar-designto-html5").style.WebkitAnimationName = "width90";
 					}, 5);
 					
-					// Setflag to false after 4 seconds (4 second sis set in css animation duration) so animations can start again
+					// Setflag to false after 4 seconds (4 seconds is set in css as animation duration) so animations can start again
 					setTimeout(function ()
 					{					
 						isAnimRunning = false;
@@ -338,17 +338,6 @@ $(document).ready(function(){
 		// Show notification
 		$(".notification-bar").html(msg).toggle("fast").delay(3500).toggle("fast");
 	}
-	
-	// Scroll to anchor points
-	$('a[href^="#"]').on('click', function(event) {
-		var target = $(this.getAttribute('href'));
-		if( target.length ) {
-			event.preventDefault();
-			$('html, body').stop().animate({
-				scrollTop: target.offset().top-30
-			}, 1000);
-		}
-	});
 	
 	
 	/* 
